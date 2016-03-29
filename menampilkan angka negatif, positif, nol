@@ -1,0 +1,19 @@
+// Menampilkan Angka
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+ int angka;
+cout<< "Masukkan Angka  : ";
+cin>>angka;
+
+if(angka<0)
+cout<< "Angka Negatif"<<endl;
+else if (angka>0)
+cout<< "Angka Positif"<<endl;
+else (angka==0);
+cout<<"Angka Nol"<<endl;
+cout<<"----------------";
+
+}
