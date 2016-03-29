@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int angka1,angka2,hasil;
+    char oprn;
+    cout<<"Masukan bilangan pertama : ";
+    cin>>angka1;
+    cout<<"tentukan operator yang dipilih : ";
+    cin>>oprn;
+    cout<<"Masukan Bilangan kedua : ";
+    cin>>angka2;
+
+    switch (oprn)
+    {
+   case '+' :
+        hasil=angka1 + angka2 ;
+        cout<<"hasil = "<<hasil;
+        break;
+   case '-' :
+        hasil=angka1 - angka2 ;
+        cout<<"hasil = "<<hasil;
+        break;
+   case '/' :
+        hasil=angka1 / angka2;
+        cout<<"hasil = "<<hasil;
+        break;
+   case '*' :
+        hasil=angka1 * angka2;
+        cout<<"hasil = "<<hasil;
+        break;
+    }
+
+
+}
