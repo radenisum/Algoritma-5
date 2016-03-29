@@ -1,0 +1,47 @@
+// Menampilkan Angka
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+    
+ int kode_hari;
+ cout<< "Masukkan Hari"<<endl;
+ cin>>kode_hari;
+ 
+ //seleksi dengan switch 
+ 
+ switch (kode_hari)
+{
+    case 1 :
+    cout<< "senin" <<endl;
+    break;
+    
+    case 2 :
+    cout<< "selasa"<<endl;
+    break;
+    
+    case 3 :
+    cout<< "Rabu"<<endl;
+    break;
+    
+    case 4 :
+    cout<< "Kamis"<<endl;
+    break;
+    
+    case 5 :
+    cout<< "jumat"<<endl;
+    break;
+    
+    case 6 :
+    cout<< "sabtu"<<endl;
+    break;
+    
+    case 7 :
+    cout<< "minggu"<<endl;
+    break;
+
+	system (pause);
+}
+}
